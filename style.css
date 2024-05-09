@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(255, 214, 144), rgb(251, 230, 194));
+    font-family: "Kanit", sans-serif;
+    margin: 0;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    left: 35px;
+    top: 35px;
+}
+
+.logo img {
+    width: 100px;
+    margin: 0px 10px;
+}
+
+.nav {
+    margin: 18px auto;
+    width: 55%;
+    display: block;
+}
+
+.navbar {
+    margin: 10px;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    margin: 15px 10px;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    display: inline-block;
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.button{
+    margin: 5px;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    background-image: linear-gradient(to right, rgb(255, 115, 0), rgb(255,189,67));
+}
+
+.contact img {
+    margin: 2px;
+    width: 15px;
+}
+
+.container {
+    line-height: normal;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.heading {
+    position: relative;
+    font-size: 50px;
+    margin-bottom: 20px;
+    width: 400px;
+    font-weight: bold  ;
+}
+
+.text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.startbtn{
+    margin: 5px;
+    border-radius: 20px;
+    width: 150px;
+    padding: 10px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    background-image: linear-gradient(to right, rgb(255, 115, 0), rgb(255,189,67));
+}
+.bg-image {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 35px;
+    margin: 100px 10px;
+}
+
+.bg-image img {
+    width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo {
+        left: 10px;
+    }
+    .nav {
+        width: 90%;
+    }
+    .contact {
+        right: 10px;
+    }
+    .container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .heading {
+        font-size: 40px;
+        width: auto;
+    }
+    .text {
+        width: auto;
+    }
+    .bg-image img {
+        width: 300px;
+    }
+}
